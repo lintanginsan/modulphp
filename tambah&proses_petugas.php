@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-md-6 mx-auto">
                 <div class="form-container">
-                    <h3 class="text-center mb-4">Tambah TUGAS LAH NUGAS</h3>
+                    <h3 class="text-center mb-4">Tambah TUGAS </h3>
                     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                         <div class="mb-3">
                             <label for="nama_petugas" class="form-label">Nama Petugas:</label>
@@ -48,7 +48,7 @@
                                 <option value="pengawas">Pengawas</option>
                                 <option value="pengelola">Pengelola</option>
                                 <option value="entitas_lain">entitas_lain</option>
-                                <option value="open_joki_popIce">open_joki_popIce</option>
+                
                             </select>
                         </div>
                         <div class="d-grid">

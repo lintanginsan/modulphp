@@ -7,12 +7,12 @@ if(isset($_POST['logout'])) {
             var confirmLogout = confirm('Apakah Anda yakin ingin logout?');
             if (confirmLogout) {
                 alert('Anda telah logout.');
-                window.location = 'login_pelanggan.php';
+                window.location = 'login_petugas.php';
             }
  </script>";
 
     session_destroy();
-    header('location: login_pelanggan.php');
+    header('location: login_petugas.php');
     exit();
 }
 ?>
@@ -32,7 +32,7 @@ if(isset($_POST['logout'])) {
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Logout</h5>
-                        <p class="card-text">kau mau keluar, emang selesai belanjanya?</p>
+                        <p class="card-text">Apakah Anda yakin ingin logout?</p>
                         <form action="" method="post">
                             <button type="submit" name="logout" class="btn btn-primary">Logout</button>
                         </form>
